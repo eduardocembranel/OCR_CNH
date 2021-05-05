@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=""device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/table.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/loader.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Reconhecimento de CNH</title>
+</head>
+<body>
+    <h1>OCR para CNH (Carteira Nacional de Habilitação)</h1>
+
+    <div id="wrap-buttons">
+        <input type="file" id="input-file" name="input-file">
+        <button id="btn-submit">Enviar</button>
+    </div>
+
+    <div id="loader"></div>
+    
+    <div id="content"></div>
+
+    <script src="{{url_for('static', filename='js/index.js')}}"></script>
+</body>
+</html>

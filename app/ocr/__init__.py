@@ -1,0 +1,1 @@
+from app.ocr.ocr import OCR_CNH
