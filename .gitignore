@@ -1,6 +1,6 @@
 __pycache__/
-log/*
+app/static/images/log/*
 examples/*
 
 !examples/.gitkeep
-!log/.gitkeep
+!app/static/images/log/.gitkeep
